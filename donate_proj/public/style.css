@@ -14,16 +14,14 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  
-
 
     filter: blur(8px);
     -webkit-filter: blur(5px);
     
 }
 
-.text_box_1{
-  background-color: black
+.text_box_1 {
+  background-color: black;
   background-color: rgba(0,0,0, 0.4); 
   color: white;
   font-weight: bold;
@@ -34,6 +32,7 @@
   text-align: center;
 
 }
+
 
 .donate_now_btn{
     padding: 15px 30px;
@@ -52,3 +51,76 @@
     margin-top: 15px;
     
 }
+
+
+.textbox_2{
+height: 100vh;
+position: relative;
+text-align: center;
+margin-top: 150px;
+  
+ }
+
+ .textbox_2 h1{
+   font-weight: 45px;
+   font-size: 40px;
+
+ }
+
+ .textbox_2 p{
+    
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+
+
+.rec_text{
+    
+    height: 130px ;
+    width: 130px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+   
+    color:  #707070;
+    font-weight: bold;
+    font-size: 20px;  
+    
+  
+}
+
+.rec_text p{
+    margin: 0;
+    position: absolute;
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+ 
+ 
+
+ .rectangle_container{
+
+   display: flex;
+   justify-content: space-between;
+   margin-left: 250px;
+   margin-right: 250px;
+   margin-top: 50px;
+   margin-bottom: 100px;
+   
+ }
+
+ .text{
+    width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #DADADA;
+  text-align: center;
+  font-size: 18px;
+ }
