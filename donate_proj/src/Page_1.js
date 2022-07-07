@@ -6,8 +6,8 @@ const Page_1 = () => {
     <section>
       <div className='background_1'> </div>
       <div className='text_box_1'>
-      <h1>Let'sHelp Those Who Are More In Need </h1>
-        <p> Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+      <h1 className='main_heading'>Let's take responsibility! </h1>
+        <p className='first_para'> Massive floods, collapsed houses, missing and dead people: Severe storms and heavy rainfalls have left widespread destruction in Bangladesh</p>
         <button className='donate_now_btn'>Donate Now</button>
       </div>
       
@@ -20,7 +20,7 @@ const Page_1 = () => {
     <section >
     <div className='textbox_2'>
         <h1>Donate Today</h1>
-        <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+        <p className='first_para'>We need your help to support the evacuation of affected families and secure dangerous areas</p>
 
         
 
@@ -62,7 +62,7 @@ const Page_1 = () => {
 
     <section className='Donate_plan_container'>
         <h1 className='Donate_plan_header'>Our Donate Plan</h1>
-        <p className='Donate_plan_para'>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+        <p className='Donate_plan_para first_para'>organize accommodation for people who no longer have a home ,help with the clean-up work and provide construction dryers ,support people with cash so that they can get their bare minimums</p>
 
         <div className='Donate_Rectangle_Container'>
             <div className='donate_rectangle'>
@@ -75,7 +75,7 @@ const Page_1 = () => {
                 <div className='text2'>
                 <h1>Food for a family</h1>
                 </div>
-                <p className='text3'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <p className='text3'>distribute food and hygiene kits to people in emergency shelters. </p>
                 
 
                 
@@ -93,7 +93,7 @@ const Page_1 = () => {
                 <div className='text2'>
                 <h1>Shelter for a family</h1>
                 </div>
-                <p className='text3'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <p className='text3'>support the evacuation of affected families.help with the clean-up work and provide construction dryers</p>
                 
 
                 
@@ -110,7 +110,7 @@ const Page_1 = () => {
                 <div className='text2'>
                 <h1>Education for a child</h1>
                 </div>
-                <p className='text3'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <p className='text3'>support children and adults with psycho-social care.take care of emergency services on-site</p>
                 
 
                 
@@ -125,8 +125,7 @@ const Page_1 = () => {
     <section className='section3'>
     <dev className="left">
         <h1 className='lives_heading'>Their lives depend on your donation</h1>
-        <p >Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim
-Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset.</p>
+        <p className='first_para'>People wishing to donate goods or offer financial support can donate or pledge goods through national non-for-profit organisation.</p>
         <button className='text_btn2'>How to Contribute?</button>
 
     </dev>
@@ -144,8 +143,9 @@ Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterru
     <dev className="left">
         <h1 className='lives_heading'>They need us
 to suvive</h1>
-        <p >Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim
-Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset.</p>
+        <p className='first_para'>Sylhet communities affected by recent storms and floods urgently need help.
+
+If you wish to contribute, it is vital that you don't hinder recovery efforts by dropping unrequested donations into the affected areas.  </p>
 
         <button className='text_btn2'>How to Contribute?</button>
 
@@ -161,7 +161,7 @@ Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterru
 
     <section className='last_container'>
     <h1 className='last_heading'>Get My Updates</h1>
-    <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+    <p>asks for your donation for the River Floods in Bangladesh</p>
 
     <div className='set_box'>
         <form className='form_set'>

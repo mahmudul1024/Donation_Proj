@@ -8,6 +8,9 @@
 .body{
     width: 100%;
 }
+.main_heading{
+    font-family: 'Alfa Slab One', cursive;
+}
 
 .background_1{
     background-image: url("images/donation6.jpg");
@@ -280,7 +283,7 @@ margin-top: 150px;
    margin-top: 85px;
    color: #FF5959;
    margin-bottom: 20px;
-    
+   font-family: 'Lobster', cursive;    
 }
 
 .set_box{
@@ -319,4 +322,14 @@ margin-top: 150px;
 
 .last_container{
     
+}
+
+.rectangle_container :hover{
+    border: 2px solid red;
+    color: red;
+    box-shadow: 10px 10px 8px 10px #888888;;
+}
+
+.first_para{
+    font-size: 19px;
 }
