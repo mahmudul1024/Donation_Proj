@@ -152,7 +152,7 @@ If you wish to contribute, it is vital that you don't hinder recovery efforts by
     </dev>
     <dev className="right">
         <div >
-        <img className='image_last' src='/images/donation12.png' ></img>
+        <img className='image_last' src='images/donation12.png' ></img>
         </div>
 
     </dev>
