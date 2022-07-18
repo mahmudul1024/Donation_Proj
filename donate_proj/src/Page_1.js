@@ -86,7 +86,7 @@ const Page_1 = () => {
             <div className='donate_rectangle'>
                 <div className='image_icon'>
                 <div className='shift_left_image'>
-                <img src='/icons/shelter.png' ></img>
+                <img src='icons/shelter.png' ></img>
                 </div>
                 <div className='shift_text'></div>
                 </div>
